@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "ChicagoFLF";
+  src: local("ChicagoFLF"),
+    url("./fonts/ChicagoFLF.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Verdana";
+  src: local("Verdana"),
+    url("./fonts/Verdana.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: "Times New Roman";
+  src: local("Times New Roman"),
+    url("./fonts/TurkishTimesNewRoman.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("/images/bg.png");
+  background-repeat: repeat;
+}
