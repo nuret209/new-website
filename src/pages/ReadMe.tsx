@@ -1,4 +1,3 @@
-import React from 'react'
 import Menu from '../components/Menu'
 import Apps from '../components/Apps'
 import ReadMeWindow from '../components/ReadMeWindow'
